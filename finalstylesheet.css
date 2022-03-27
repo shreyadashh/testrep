@@ -1,0 +1,185 @@
+html
+{
+	font-family: "Century Gothic";
+	color: white;
+	margin: 0;
+	padding:0;
+}	
+body
+{
+	margin: 0;
+	min-height: 100vh;
+	background: linear-gradient(#020d09,20%,MediumSeaGreen);
+	box-sizing: border-box;
+}
+header
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 5px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1000;
+}
+header .logo
+{
+	color: #fff;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 20px 30px;
+}
+header nav
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+header nav li
+{
+	text-decoration: none;
+	list-style: none;
+	margin-left: 20px;
+}
+header nav li a
+{
+	text-decoration: none;
+	padding: 8px 15px;
+	color: white;
+	border-radius: 20px;
+}
+header nav li a:hover,
+header nav li a.active
+{
+	background: white;
+	color: MediumSeaGreen;
+}
+section
+{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+section img
+{
+	position: absolute;
+}
+section img#sculpture
+{
+	z-index: 100;
+	position: relative;
+	top: 0%;
+	right: 2%;
+	height: 95%
+}
+section img#neonring
+{
+	z-index: 10;
+	mix-blend-mode: screen;
+	top: 35%;
+	right: 6%;
+	position: absolute;
+}
+#text
+{
+	position: absolute;
+	color: white;
+	white-space: nowrap;
+	padding: 12% 10%;
+}
+.sec
+{
+	position: relative;
+	padding: 100px;
+	height: 110%;
+	background: black;
+}
+.sec h2
+{
+	margin-bottom: 10px;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: MediumSeaGreen;
+    border-radius: 50%;
+    display: inline-block;
+}
+.chip {
+	position: absolute;
+	color: MediumSeaGreen;
+	top: 68%;
+	left: 10%;
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    z-index: 500;
+}
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    z-index: 500;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 0% 14%;
+  height: 350px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.navlist li.img_1
+{
+	background: url('https://drive.google.com/uc?export=view&id=1dHIiipln9-1Fpu_bBCH9CTgV7qGIxlx4') no-repeat left center;
+    padding: 10% 30% 5% 30%;
+	margin: 0;
+	width: 500px;
+	list-style: none;
+}
+ul.navlist li.img_2
+{
+	background: url('https://drive.google.com/uc?export=view&id=1NiS2YPwV1EpTTyCeMoHmiKKrwphW2sFt') no-repeat left center;
+    padding: 10% 30% 5% 30%;
+	width: 500px;
+	margin: 0;
+    vertical-align: middle;
+	list-style: none;
+}
+ul.navlist li.img_3
+{
+	background: url('https://drive.google.com/uc?export=view&id=1lWqztOVPTt4q8vpoXqkfW2dTvIelkaZT') no-repeat left center;
+    padding: 10% 30% 5% 30%;
+	width: 500px;
+	margin: 0;
+    vertical-align: middle;
+	list-style: none;
+}
+ul.navlist li.img_4
+{
+	background: url('https://drive.google.com/uc?export=view&id=1JUcTgr8Z0qVw8XLO9i7y6HsoFTPThV3N') no-repeat left center;
+    padding: 10% 30% 5% 30%;
+	width: 500px;
+	margin: 0;
+    vertical-align: middle;
+	list-style: none;
+}
